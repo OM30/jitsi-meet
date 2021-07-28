@@ -106,7 +106,7 @@ var config = {
 
     // Enabling this will hide the "Show More" link in the GSM popover that can be
     // used to display more statistics about the connection (IP, Port, protocol, etc).
-    // disableShowMoreStats: true,
+    disableShowMoreStats: true,
 
     // Enabling this will run the lib-jitsi-meet noise detection module which will
     // notify the user if there is noise, other than voice, coming from the current
@@ -116,7 +116,7 @@ var config = {
 
     // Start the conference in audio only mode (no video is being received nor
     // sent).
-    // startAudioOnly: false,
+    startAudioOnly: true,
 
     // Every participant after the Nth will start audio muted.
     // startAudioMuted: 10,
@@ -385,7 +385,7 @@ var config = {
 
     // Whether to use a welcome page or not. In case it's false a random room
     // will be joined when no room is specified.
-    enableWelcomePage: true,
+    enableWelcomePage: false,
 
     // Disable app shortcuts that are registered upon joining a conference
     // disableShortcuts: false,
@@ -425,7 +425,7 @@ var config = {
     // enableCalendarIntegration: false,
 
     // When 'true', it shows an intermediate page before joining, where the user can configure their devices.
-    // prejoinPageEnabled: false,
+    prejoinPageEnabled: false,
 
     // If etherpad integration is enabled, setting this to true will
     // automatically open the etherpad when a participant joins.  This

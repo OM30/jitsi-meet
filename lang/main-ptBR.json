@@ -25,8 +25,8 @@
         "searchNumbers": "Adicionar números de telefone",
         "searchPeople": "Pesquisar pessoas",
         "searchPeopleAndNumbers": "Pesquisar por pessoas ou adicionar seus números de telefone",
-        "shareInvite": "Compartilhar convite da reunião",
-        "shareLink": "Compartilhando o link da reunião",
+        "shareInvite": "Compartilhar convite da sala",
+        "shareLink": "Compartilhando o link da sala",
         "shareStream": "Compartilhar o link da transmissão ao vivo",
         "telephone": "Telefone: {{number}}",
         "title": "Convide pessoas para sua reunião",
@@ -44,17 +44,17 @@
     },
     "calendarSync": {
         "addMeetingURL": "Adicionar um link da reunião",
-        "confirmAddLink": "Gostaria de adicionar um link do Jitsi a esse evento?",
+        "confirmAddLink": "Gostaria de adicionar um link a esse evento?",
         "error": {
             "appConfiguration": "A integração com calendário não está configurada adequadamente.",
             "generic": "Ocorreu um erro. Verifique as configurações de calendário ou tente atualizar o calendário.",
             "notSignedIn": "Ocorreu um erro durante a autenticação para visualização dos eventos do calendário. Verifique as configurações de calendário e tente entrar novamente."
         },
-        "join": "Participar",
-        "joinTooltip": "Participar da reunião",
+        "join": "Ingressar",
+        "joinTooltip": "Ingressar agora",
         "nextMeeting": "próxima reunião",
         "noEvents": "Não há eventos próximos agendados.",
-        "ongoingMeeting": "reunião em progresso",
+        "ongoingMeeting": "conversa em progresso",
         "permissionButton": "Abrir configurações",
         "permissionMessage": "Permissão do calendário é requerida para ver suas reuniões na aplicação.",
         "refresh": "Atualizar calendário",
@@ -80,7 +80,7 @@
         "dontShowAgain": "Não me mostre isso de novo"
     },
     "connectingOverlay": {
-        "joiningRoom": "Conectando você à reunião…"
+        "joiningRoom": "Conectando você à sala..."
     },
     "connection": {
         "ATTACHED": "Anexado",
@@ -146,7 +146,7 @@
         "downloadApp": "Baixe o Aplicativo",
         "ifDoNotHaveApp": "Se você não tem o app ainda:",
         "ifHaveApp": "Se você já tem o app:",
-        "joinInApp": "Entrar na reunião usando o app",
+        "joinInApp": "Entrar na sala usando o app",
         "launchWebButton": "Iniciar na web",
         "title": "Iniciando sua reunião no {{app}}...",
         "tryAgainButton": "Tente novamente no desktop"
@@ -204,6 +204,7 @@
         "e2eeLabel": "Enable End-to-End Encryption",
         "e2eeWarning": "WARNING: Not all participants in this meeting seem to have support for End-to-End encryption. If you enable it they won't be able to see nor hear you.",
         "enterDisplayName": "Digite seu nome aqui",
+        "enterDisplayNameToJoin": "Digite seu nome para entrar",
         "error": "Erro",
         "gracefulShutdown": "Nosso serviço está em manutenção. Tente novamente mais tarde.",
         "grantModeratorDialog": "Tem certeza que quer participar como moderador da reunião?",
@@ -323,27 +324,27 @@
     "embedMeeting": {
         "title": "Reunião em formato compacto"
     },
-        "virtualBackground": {
-            "apply": "Aplicar",
-            "title": "Fundos virtuais",
-            "blur": "Desfoque",
-            "slightBlur": "Desfoque suave",
-            "removeBackground": "Remover fundo",
-            "addBackground": "Adicionar novo fundo",
-            "pleaseWait": "Aguarde...",
-            "none": "Nenhum",
-            "uploadedImage": "Imagem enviada {{index}}",
-            "deleteImage": "Excluir imagem",
-            "image1" : "Praia",
-            "image2" : "Parede branca neutra",
-            "image3" : "Quarto branco vazio",
-            "image4" : "Luminária preta",
-            "image5" : "Montanha",
-            "image6" : "Floresta",
-            "image7" : "Alvorada",
-            "desktopShareError": "Não foi possível compartilhar o desktop",
-            "desktopShare":"Compartilhar desktop",
-            "webAssemblyWarning": "Não há suporte para WebAssembly"
+    "virtualBackground": {
+        "apply": "Aplicar",
+        "title": "Fundos virtuais",
+        "blur": "Desfoque",
+        "slightBlur": "Desfoque suave",
+        "removeBackground": "Remover fundo",
+        "addBackground": "Adicionar novo fundo",
+        "pleaseWait": "Aguarde...",
+        "none": "Nenhum",
+        "uploadedImage": "Imagem enviada {{index}}",
+        "deleteImage": "Excluir imagem",
+        "image1": "Praia",
+        "image2": "Parede branca neutra",
+        "image3": "Quarto branco vazio",
+        "image4": "Luminária preta",
+        "image5": "Montanha",
+        "image6": "Floresta",
+        "image7": "Alvorada",
+        "desktopShareError": "Não foi possível compartilhar o desktop",
+        "desktopShare": "Compartilhar desktop",
+        "webAssemblyWarning": "Não há suporte para WebAssembly"
     },
     "feedback": {
         "average": "Média",
@@ -523,16 +524,16 @@
         "oldElectronClientDescription2": "última versão",
         "oldElectronClientDescription3": " agora!"
     },
-        "participantsPane": {
-            "close": "Fechar",
-            "headings": {
-                "lobby": "Sala de espera ({{count}})",
-                "participantsList": "Participantes da reunião ({{count}})"
-            },
-            "actions": {
-                "invite": "Convidar alguém",
-                "muteAll": "Silenciar todos",
-                "stopVideo": "Parar vídeo"
+    "participantsPane": {
+        "close": "Fechar",
+        "headings": {
+            "lobby": "Sala de espera ({{count}})",
+            "participantsList": "Participantes da reunião ({{count}})"
+        },
+        "actions": {
+            "invite": "Convidar alguém",
+            "muteAll": "Silenciar todos",
+            "stopVideo": "Parar vídeo"
         }
     },
     "passwordSetRemotely": "Definido por outro participante",
@@ -581,8 +582,8 @@
         "errorValidation": "Validação do número falhou",
         "iWantToDialIn": "Eu quere discar",
         "joinAudioByPhone": "Participar com o áudio via ligação",
-        "joinMeeting": "Participar da reunião",
-        "joinWithoutAudio": "Participar sem áudio",
+        "joinMeeting": "Ingressar agora",
+        "joinWithoutAudio": "Ingressar sem áudio",
         "initiated": "Chamada iniciada",
         "linkCopied": "Link copiado para a área de transferência",
         "lookGood": "Seu microfone está funcionando corretamente",
@@ -662,6 +663,9 @@
             "signedIn": "Atualmente acessando eventos do calendário para {{email}}. Clique no botão Desconectar abaixo para parar de acessar os eventos da agenda.",
             "title": "Calendário"
         },
+        "desktopShareFramerate": "Frame rate de compartilhamento de tela",
+        "desktopShareWarning": "Você precisa re-compartilhar a tela para que as configurações tenham efeito.",
+        "sounds": "Som",
         "devices": "Dispositivos",
         "followMe": "Todos me seguem",
         "language": "Idioma",
@@ -671,13 +675,19 @@
         "more": "Mais",
         "name": "Nome",
         "noDevice": "Nenhum",
+        "playSounds": "Tocar som quando",
+        "participantJoined": "Participante Entrou",
+        "participantLeft": "Participante saiu",
+        "talkWhileMuted": "Falar enquanto está mutado",
+        "incomingMessage": "Receber mensagem",
         "selectAudioOutput": "Saída de áudio",
         "selectCamera": "Câmera",
         "selectMic": "Microfone",
         "speakers": "Alto-faltantes",
         "startAudioMuted": "Todos iniciam mudos",
         "startVideoMuted": "Todos iniciam ocultos",
-        "title": "Configurações"
+        "title": "Configurações",
+        "framesPerSecond": "frames-por-segundo"
     },
     "settingsView": {
         "advanced": "Avançado",
@@ -800,6 +810,7 @@
         "moreOptions": "Mais opções",
         "mute": "Mudo / Não mudo",
         "muteEveryone": "Silenciar todos",
+        "muteEveryonesVideo": "Desativar a camera de todos",
         "noAudioSignalTitle": "Não há entrada de áudio vindo do seu microfone!",
         "noAudioSignalDesc": "Se você não o desativou propositalmente das configurações do sistema ou do hardware, considere trocar o dispositivo.",
         "noAudioSignalDescSuggestion": "Se você não o desativou propositalmente das configurações do sistema ou do hardware, considere trocar para o dispositivo sugerido.",
@@ -808,6 +819,7 @@
         "noisyAudioInputTitle": "O seu microfone parece estar barulhento!",
         "noisyAudioInputDesc": "Parece que o microfone está fazendo barulho, considere silenciar ou alterar o dispositivo.",
         "openChat": "Abrir chat",
+        "participants": "Participantes",
         "pip": "Entrar em modo Quadro-a-Quadro",
         "privateMessage": "Enviar mensagem privada",
         "profile": "Editar seu perfil",
@@ -815,6 +827,7 @@
         "raiseYourHand": "Levantar a mão",
         "security": "Opções de segurança",
         "Settings": "Configurações",
+        "shareaudio": "Compartilhar audio",
         "sharedvideo": "Compartilhar um vídeo do YouTube",
         "shareRoom": "Convidar alguém",
         "shortcuts": "Ver atalhos",
@@ -914,7 +927,10 @@
         "getHelp": "Obter ajuda",
         "go": "IR",
         "goSmall": "IR",
+        "headerTitle": "Jitsi Meet - OM30",
+        "headerSubtitle": "Salas",
         "join": "CRIAR / ENTRAR",
+        "jitsiOnMobile": " ",
         "info": "Informações",
         "moderatedMessage": "Ou <a href=\"{{url}}\" rel=\"noopener noreferrer\" target=\"_blank\">agende uma URL de reunião</a> antes, onde você é o único moderador.",
         "privacy": "Política de Privacidade",
@@ -927,7 +943,8 @@
         "roomnameHint": "Digite o nome ou a URL da sala que você deseja entrar. Você pode digitar um nome, e apenas deixe para as pessoas que você quer se reunir digitem o mesmo nome.",
         "sendFeedback": "Enviar comentários",
         "terms": "Termos",
-        "title": "Videoconferências mais seguras, flexíveis e totalmente gratuitas"
+        "title": "Videoconferências mais seguras, flexíveis e totalmente gratuitas",
+        "startMeeting": "Iniciar"
     },
     "lonelyMeetingExperience": {
         "youAreAlone": "Você é o único na reunião",
